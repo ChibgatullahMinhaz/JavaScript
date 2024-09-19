@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Number</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        min-width: 300px;
+        align-items: center;
+        text-align: center;
+        background-color: aliceblue;
+        border: 1px solid gray;
+        padding: 10px;
+    }
+
+    #number {
+        outline: none;
+        border: none;
+        color: black;
+        background-color: aliceblue;
+        display: block;
+        width: 100%;
+        padding: 5px;
+    }
+
+    #Warnign {
+        text-align: end;
+        color: red;
+        
+    }
+    p{
+        text-align: justify;
+        color: blueviolet;
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <input type="number" id="number" placeholder="Enter A Number">
+        <span id="Warnign"></span>
+        <p >Factorial Number : <span id="fact"></span> </p>
+        <button id="check">check</button>
+    </div>
+    <script src="Factorial.js"></script>
+</body>
+
+</html>
