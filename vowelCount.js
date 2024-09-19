@@ -1,6 +1,5 @@
-let str = "the quick brown fox jumps over the lazy dog";
-
-const vowel = "aeiouAEIOU";
+const str = "the quick brown fox jumps over the lazy dog and 🥰";
+const vowel = "aeiouAEIOU"; 
 
 function vowelCount() {
     let vcount = 0;
